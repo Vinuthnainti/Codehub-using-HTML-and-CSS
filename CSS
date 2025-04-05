@@ -1,0 +1,428 @@
+body{  
+background-color:orange;
+margin-left:550px;
+width:100%;
+     font-family:arial,roboto;
+     text-align:center;
+     margin:0;
+     padding:0;
+      background: linear-gradient(to bottom, orange 63%, cyan  63% 76%, grey 76% );
+}
+.progress-container {
+    display: flex;
+    gap: 20px;
+}
+
+.progress-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: conic-gradient(#4caf50 calc(var(--percentage) * 1%), #ddd 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+}
+
+.progress-circle::before {
+    content: "";
+    width: 80%;
+    height: 80%;
+    background-color:pink;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.progress-circle span {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+/* Fix dynamic percentage */
+.progress-circle[data-percentage] {
+    --percentage: attr(data-percentage number);
+}
+
+
+/*  width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+}
+
+.progress-circle::before {
+    content: "";
+    width: 80%;
+    height: 80%
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+}
+progress-circle span {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+*/
+
+
+h4{
+   font-size :50px;
+   font-family:cursive;
+   font-style:italic;
+   color:red;
+}
+h3{
+   font-size :50px;
+   font-family:cursive;
+   font-style:italic;
+   color:mediumseagreen;
+}
+h8{
+   font-size :50px;
+   font-family:cursive;
+   font-style:italic;
+   color:lightpink
+}
+h5{
+   font-size :15px;
+padding:0;
+margin:0;
+margin-bottom:12px;
+}
+h11{
+   font-size :12px;
+padding:0;
+margin:0;
+margin-bottom:12px;
+}
+
+
+h12{
+   font-size :12px;
+padding:0;
+margin:0;
+margin-bottom:12px;
+}
+h13{
+   font-size :12px;
+padding:0;
+margin:0;
+margin-bottom:12px;
+}
+h14{
+   font-size :12px;
+padding:0;
+margin:0;
+margin-bottom:12px;
+}
+h15{
+   font-size :12px;
+padding:0;
+margin:0;
+margin-bottom:12px;
+}
+h16{
+   font-size :12px;
+padding:0;
+margin:0;
+margin-bottom:12px;
+}
+
+h2{
+color:lightgoldenrodyellow;
+}
+.block{
+    display: inline-block;
+    display-color:white;
+    padding: 15px 80px;
+    border-radius:25px;
+    border:2px solid black;
+}
+.block{
+background-color:white;
+}
+.block:hover{
+background-color:grey;
+}
+form{
+     background: white;
+     padding:18px;
+     border-radius:10px;
+     display:inline-bock;
+     margin-top:100px;
+     margin-left:550px;
+width:300px;
+}
+input[type="email"],
+input[type="password"]{
+ width:100%
+padding:20px;
+margin:10px;
+border-1px;
+border-radius:5px;
+}
+input[type="submit"]{
+      background-color:#007bff;
+ color:white;
+padding:10px;
+width=100%
+border-radius:5px;
+font-size:16px;
+}
+input[type="submit"]:hover{
+    background-color:darkblue;
+}
+.container{
+ display:flex;
+justify-content:space-between;
+align-items:center;
+width:90%
+height:100vh;
+}
+
+.left-column{
+margin-right:200px;
+margin-left:200px;
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+.right-column{
+margin-right:200px;
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+.box{
+padding:20px;
+border:1px solid;
+text-align:center;
+width:200px;
+border-radius:50px;
+font-weight:bold;
+}
+
+#html{
+background-color:lightpink;
+}
+#css{
+background-color:aqua;
+}
+#java{
+background-color:coral;
+}
+#ruby{
+background-color:cyan;
+}
+#python{
+background-color:gold;
+}
+#php{
+background-color:khaki;
+}
+#c++{
+background-color:red;
+}
+#sql{
+background-color:aquamarine;
+}
+#html:hover{
+background-color:grey;
+}
+#css:hover{
+background-color:grey;
+}
+#java:hover{
+background-color:grey;
+}
+#ruby:hover{
+background-color:grey;
+}
+#python:hover{
+background-color:grey;
+}
+#php:hover{
+background-color:grey;
+}
+#c++:hover{
+background-color:grey;
+}
+#sql:hover{
+background-color:grey;
+}
+#figma{
+background-color:lightcoral;
+margin-left:600px;
+}
+#Adobe{
+background-color:plum;
+margin-left:600px;
+}
+#figma:hover{
+background-color:grey;
+}
+#Adobe:hover{
+background-color:grey;
+}
+#tensor{
+background-color:lightsalmon;
+}
+#PyTorch{
+background-color:skyblue;
+}
+#Numpy{
+background-color:lavenderblush;
+}
+#python{
+background-color:oldlace;
+}
+#stat{
+background-color:palevioletred;
+}
+#sea{
+background-color:palegreen;
+}
+#tensor:hover{
+background-color:grey;
+}
+#PyTorch:hover{
+background-color:grey;
+}
+#dp{
+background-color:mediumpurple;
+margin-left:600px;
+}
+#NLP{
+background-color:green;
+margin-left:600px;
+}
+#dp:hover{
+background-color:grey;
+}
+#NLP:hover{
+background-color:grey;
+}
+#Arrays{
+background-color:olive;
+}
+#lists{
+background-color:palevioletred;
+}
+#graph{
+background-color:yellow;
+}
+#trees{
+background-color:salmon;
+}
+#stacks{
+background-color:skyblue;
+}
+#que{
+background-color:tan;
+}
+#Arrays:hover{
+background-color:grey;
+}
+#lists:hover{
+background-color:grey;
+}
+#graph:hover{
+background-color:grey;
+}
+#trees:hover{
+background-color:grey;
+}
+#stacks:hover{
+background-color:grey;
+}
+#que:hover{
+background-color:grey;
+}
+#eh{
+background-color:plum;
+}
+#pen{
+background-color:paleturquoise;
+}
+#cry{
+background-color:mistyrose;
+}
+#eh:hover{
+background-color:yellow;
+}
+#pen:hover{
+background-color:grey;
+}
+#cry:hover{
+background-color:grey;
+}
+#my{
+justify-content:center;
+align-items:center;
+background-color:lightgrey;
+border:3px solid black;
+text-align:center;
+border-radius:10px;
+font-size:20px;
+justify-content:center;
+align-items:center;
+font-weight:bold;
+}
+
+#i{
+background-color:lightgrey;
+border:3px solid black;
+border-radius:20px;
+text-align:center;
+color: black;
+justify-content:center;
+align-items:center;
+font-weight:bold;
+font-size:20px;
+
+}
+
+#u{
+background-color:lightgrey;
+border:3px solid black;
+border-radius:10px;
+font-size:20px;
+justify-content:center;
+align-items:center;
+font-weight:bold;
+text-align:center;
+
+
+
+}
+#p{
+background-color:lightgreen;
+border:3px solid black;
+border-radius:20px;
+text-align:center;
+color: black;
+justify-content:center;
+align-items:center;
+font-weight:bold;
+font-size:12px;
+}
+#h{
+background-color:LightGoldenRodYellow;
+border:3px solid black;
+border-radius:20px;
+text-align:center;
+color: black;
+justify-content:center;
+align-items:center;
+font-weight:bold;
+font-size:12px;
+}
